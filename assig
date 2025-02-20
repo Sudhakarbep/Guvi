@@ -1,1 +1,13 @@
-
+public class NumberCheck {
+    public static void main(String[] args) {
+        // Given input
+        int num = 123;
+        
+        // Check if the number is positive or negative
+        if (num >= 0) {
+            System.out.println("Positive");
+        } else {
+            System.out.println("Negative");
+        }
+    }
+}
