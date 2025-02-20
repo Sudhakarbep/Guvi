@@ -6,3 +6,80 @@ public class Main {
         }
     }
 }
+
+
+2nd 
+
+
+public class NumberCheck {
+    public static void main(String[] args) {
+        // Given input
+        int num = 123;
+        
+        // Check if the number is positive or negative
+        if (num >= 0) {
+            System.out.println("Positive");
+        } else {
+            System.out.println("Negative");
+        }
+    }
+}
+
+
+
+3rd
+
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        // Given input
+        int num = 876;
+        int reversedNum = 0;
+        
+        // Reverse the number using a loop
+        while (num != 0) {
+            // Get the last digit of the number
+            int digit = num % 10;
+            
+            // Append the digit to the reversed number
+            reversedNum = reversedNum * 10 + digit;
+            
+            // Remove the last digit from the number
+            num /= 10;
+        }
+        
+        // Output the reversed number
+        System.out.println("order number: " + reversedNum);
+    }
+}
+
+
+
+4th 
+
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        // Given numbers
+        int num1 = 100, num2 = 200, num3 = 55;
+        
+        // Find the smallest number using if-else conditions
+        int smallest = num1;  // Assume num1 is the smallest initially
+        
+        if (num2 < smallest) {
+            smallest = num2;  // If num2 is smaller, update smallest
+        }
+        
+        if (num3 < smallest) {
+            smallest = num3;  // If num3 is smaller, update smallest
+        }
+        
+        // Output the smallest number
+        System.out.println("The smallest number is: " + smallest);
+    }
+}
+
+
+
